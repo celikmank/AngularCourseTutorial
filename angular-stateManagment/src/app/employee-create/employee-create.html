@@ -1,0 +1,17 @@
+<form>
+    <div>
+        <label>First Name</label>
+        <input type="text" [(ngModel)]="employee.firstName" name="firstName">
+    </div>
+    <div>
+        <label>Last Name</label>
+        <input type="text" [(ngModel)]="employee.lastName" name="lastName">
+    </div>
+    <div>
+        <label>Date of Birth</label>
+        <input type="date" [(ngModel)]="employee.dateOfBirth" name="dateOfBirth">
+    </div>
+    <div>
+        <button (click)="save()">Save</button>
+    </div>
+</form>
